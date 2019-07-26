@@ -1,7 +1,7 @@
 <?php
 $I = new AcceptanceTester($scenario);
 $I->maximizeWindow();
-$I->wantTo('User should successfully log in ');
+$I->wantTo('Media should show Unlike once liked and vice versa. If liked it should appear here');
 $I->amOnPage('/');
 $I->seeInTitle('Activity – rtCamp');
 $I->fillField("log","demo");
