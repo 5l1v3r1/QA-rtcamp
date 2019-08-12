@@ -56,7 +56,12 @@ Powered by PHPUnit.
 
 5) CMD to Run Testcase
 
-     `php codecept.phar run acceptance`
+     `php codecept.phar run acceptance'
+     
+      `run test on web browser you must need a selenium driver manager`
+         
+      cmd :  `webdriver-manager start `
+        
 
       ![Untitled](https://user-images.githubusercontent.com/4941557/61984565-906dc380-b022-11e9-8fd6-d18442f64a99.png)
 
