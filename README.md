@@ -1,8 +1,14 @@
-# QA-rtcamp
-
 # Description
-This Reoositories contain automation & Manual Testing Test Case with their issues and all the test case of automation is devlope using the
-famous automation tool codeception. 
+This Reoositories contain automation & Manual Testing Test Case with their issues and all the test case of automation is devlope using the famous automation tool codeception. 
+
+### Codeception
+
+Codeception is a modern full-stack testing framework for PHP.
+Inspired by BDD, it provides an absolutely new way of writing acceptance, functional and even unit tests.
+Powered by PHPUnit.
+
+
+### How To Setup All the Stuff
 
 ### Test Cases
 
