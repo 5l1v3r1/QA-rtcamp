@@ -92,13 +92,14 @@ Powered by PHPUnit.
       `run test on web browser you must need a selenium driver manager`
      
      
-       cmd :  `webdriver-manager start `
+      cmd :   
+         `webdriver-manager start`
      
      
       ![Untitled](https://user-images.githubusercontent.com/4941557/62895270-2700eb00-bd6c-11e9-844b-4403b92649b5.png)
      
 
-      `php codecept.phar run acceptance'
+     `php codecept.phar run acceptance'
      
        
    
