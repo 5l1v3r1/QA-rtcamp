@@ -45,42 +45,22 @@ Then navigate inside to ‘C:\xampp\php\codecept.phar’ folder.
  
    ***Note After doing this, you will have a new folder named “tests” added in your initial folder which contains:*** 
 
-   
+
+
    ![test_folders](https://user-images.githubusercontent.com/4941557/63010095-5ebe7e80-bea3-11e9-8a1f-dda5c49603a7.png)
    
 
-
-
-* _output, a folder where you will find all reports and images once you start running some tests.  
-* _data, where you can store SQL dumps for test usage and the database cleanup feature.
-* _support, where you can make custom methods to use additionally to the ones already created by default.
-* Three test suites: acceptance, functional and unit. The functional and unit tests require more in-depth knowledge of PHP to be used. Therefore, we will only study acceptance tests. They offer a very wide range of testing options, so the other two aren’t really mandatory.
-* “_bootstrap.php” file where you are able to specify paths to the files that you want to load and use in your tests. (If you wrote a function in a non-test PHP file, you can add it here, and we will explain how this works later on). 
-* Configuration files for all of the three test suites (all of the .yml files).
-
-
-4) Time For Configuration of Selenium webDriver and Browser where you run your test cases.
-
-    `under tests folder their is .yml files which are use to setup browser and selenium webdriver and other capability of  functional        and acceptance test.`
- 
-     iF you want to create new testcase then use below command
-     `php codecept.phar generate:cept acceptance File_Name`
+2) Clone a Git repository or Dwonload as Zip and repository
+    
+    * copy resource folder image into `C:\xampp\php\tests\_data` folder.
+    * copy all test case into `C:\xampp\php\tests\acceptance`
+    
+    `under tests folder their is .yml files which are use to setup browser and selenium webdriver and other capability of functional          and acceptance test.`
+    
+    * in tests folder replace `acceptance.suite.yml` file with github repository `acceptance.suite.yml` file.
+              
       
-      ***NOTE: to run above testcase***
-        after step3 execution you get some directory which image show above now you have to folder which name is acceptance
-        
-      ![acceptance folder](https://user-images.githubusercontent.com/4941557/63011625-5156c380-bea6-11e9-82ed-161efb6973ba.jpg)
-      
-      ![testfiles](https://user-images.githubusercontent.com/4941557/63011940-ea85da00-bea6-11e9-9e8c-509d2b37c38b.png)
-      
-      
-      to upload image you have copy [_data](/_data) to _data folder of initial directory.
-      
-      ![data](https://user-images.githubusercontent.com/4941557/63013067-08ecd500-bea9-11e9-9187-ca6baccb213e.png)
-
-         
-      
-5) CMD to Run Testcase
+3) Run Testcase
 
       `run test on web browser you must need a selenium driver manager`
      
