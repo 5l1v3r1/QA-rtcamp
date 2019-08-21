@@ -5,25 +5,44 @@ writing acceptance, functional and even unit tests. Powered by PHPUnit.
 
 Codeception allows two methods to install it. Those are ‘Phar’ and ‘Composer’ methods.
  
-• I prefer to do the installation using Codeceptions’ Phar file.
+* I prefer to do the installation using Codeceptions’ Phar file.
 
-• Phar is a php file type which allows to compress several php files into a single php file. But user doesn’t need to extract it to       local drive to install it. By simply executing several commands can install Codeception framework into application being tested.
+* Phar is a php file type which allows to compress several php files into a single php file. But user doesn’t need to extract it to       local drive to install it. By simply executing several commands can install Codeception framework into application being tested.
 
-• My system specifications: Windows, XAMPP
+* My system specifications: Windows, XAMPP
 
 ### How to install Codeception
 
-1)  [codeception.php](http://codeception.com/codecept.phar) Once downloaded the Phar file, paste it to your website root
-    folder
+1)  [codeception.phar](http://codeception.com/codecept.phar) Once downloaded the Phar file, paste it to your website root
+     folder
+     
+      • In my case i’m using XAMPP. So my Phar file will go to ‘C:\xampp\php\codecept.phar’
+     
+      • Then open up your command line tool and I assume you have already installed php into your system. You can check it by
+        simply entering ‘php -v’.
+     
+      • If it shows your php version there then you have installed php already.
+        
+       ![php version](https://user-images.githubusercontent.com/4941557/63431116-c80e3680-c43b-11e9-82ed-6b69ae9db1e1.png)
+
+     
+
+Then navigate inside to ‘C:\xampp\php\codecept.phar’ folder.
+   * Now let’s install Codeception.
+   * Type following commands in command line tool.
+           
+          `php codecept.phar bootstrap`
+           
+        ![bootstrape](https://user-images.githubusercontent.com/4941557/62873911-dffc0100-bd3d-11e9-9bfd-8e0c3369bae7.png)
+          
+          `php codecept.phar build`
+        
+        ![build](https://user-images.githubusercontent.com/4941557/62874522-02dae500-bd3f-11e9-8d29-2c2effbfdec9.png)
+      
+    
+
    
-    `php codecept.phar bootstrap`
  
-   ![bootstrape](https://user-images.githubusercontent.com/4941557/62873911-dffc0100-bd3d-11e9-9bfd-8e0c3369bae7.png)
-
-    `php codecept.phar build `
-   
-   ![build](https://user-images.githubusercontent.com/4941557/62874522-02dae500-bd3f-11e9-8d29-2c2effbfdec9.png)
-
    ***Note After doing this, you will have a new folder named “tests” added in your initial folder which contains:*** 
 
    
