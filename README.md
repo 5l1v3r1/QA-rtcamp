@@ -1,48 +1,22 @@
-# Description
-This repository contain automation & Manual Testing Test Case with their issues and all the test case of automation is devlope using the famous automation tool codeception. 
-
 ### Codeception
 
-Codeception is a modern full-stack testing framework for PHP.
-Inspired by BDD, it provides an absolutely new way of writing acceptance, functional and even unit tests.
-Powered by PHPUnit.
+Codeception is a modern full-stack testing framework for PHP. Inspired by BDD, it provides you an absolutely new way of
+writing acceptance, functional and even unit tests. Powered by PHPUnit.
 
+Codeception allows two methods to install it. Those are ‘Phar’ and ‘Composer’ methods.
+ 
+• I prefer to do the installation using Codeceptions’ Phar file.
 
-### How To Setup All the Stuff
+• Phar is a php file type which allows to compress several php files into a single php file. But user doesn’t need to extract it to       local drive to install it. By simply executing several commands can install Codeception framework into application being tested.
 
-1) First of all you need to install  [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe) on your system,
+• My system specifications: Windows, XAMPP
 
-### Composer
-  Composer is a package manger tool for php. Like Npm for node and Pip for python, Composer is for php.Composer is a tool for dependency   management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
+### How to install Codeception
 
-* Dependency management
-    Composer is not a package manager in the same sense as Yum or Apt are. Yes, it deals with "packages" or libraries, but it manages them on a per-project basis, 
-    installing them in a directory (e.g. vendor) inside your project. By default it does not install anything globally. Thus, it is a dependency manager. It does
-    however support a "global" project for convenience via the global command.
-
-    This idea is not new and Composer is strongly inspired by node's npm and ruby's bundler.
-
-   * ### Suppose:
-        You have a project that depends on a number of libraries.
-        Some of those libraries depend on other libraries.
-   * ### Composer:
-        Enables you to declare the libraries you depend on.
-        Finds out which versions of which packages can and need to be installed, and installs them (meaning it downloads them into your project).
-
-2) Codeception has some requirement which are mention on [composer.json](composer.json) instead of install one
-   requirement one time we take help of composer.
-
-      ` composer require "codeception/codeception" --dev `
-
-    
-    ![composer](https://user-images.githubusercontent.com/4941557/62870962-30706000-bd38-11e9-8805-e243d1653feb.png)
-    
-    
-3) Now all Background set to start with codecception with single click and [codeception.php](http://codeception.com/codecept.phar)
-   Download
-    -> Copy this file Folder Where yo went to setup your Projects.
+1)  [codeception.php](http://codeception.com/codecept.phar) Once downloaded the Phar file, paste it to your website root
+    folder
    
-   `php codecept.phar bootstrap`
+    `php codecept.phar bootstrap`
  
    ![bootstrape](https://user-images.githubusercontent.com/4941557/62873911-dffc0100-bd3d-11e9-9bfd-8e0c3369bae7.png)
 
