@@ -48,7 +48,7 @@ Then navigate inside to ‘C:\xampp\php\codecept.phar’ folder.
    ![test_folders](https://user-images.githubusercontent.com/4941557/63010095-5ebe7e80-bea3-11e9-8a1f-dda5c49603a7.png)
    
 
-2) Clone a Git repository or Dwonload as Zip and repository
+2) Clone a Git repository or Download as Zip.
     
     * copy resource folder image into `C:\xampp\php\tests\_data` folder.
     * copy all test case into `C:\xampp\php\tests\acceptance`
