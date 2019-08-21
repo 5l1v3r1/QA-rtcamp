@@ -38,10 +38,8 @@ Then navigate inside to ‘C:\xampp\php\codecept.phar’ folder.
           `php codecept.phar build`
         
         ![build](https://user-images.githubusercontent.com/4941557/62874522-02dae500-bd3f-11e9-8d29-2c2effbfdec9.png)
-      
-    
-
-   
+        
+ 
  
    ***Note After doing this, you will have a new folder named “tests” added in your initial folder which contains:*** 
 
@@ -55,28 +53,28 @@ Then navigate inside to ‘C:\xampp\php\codecept.phar’ folder.
     * copy resource folder image into `C:\xampp\php\tests\_data` folder.
     * copy all test case into `C:\xampp\php\tests\acceptance`
     
-    `under tests folder their is .yml files which are use to setup browser and selenium webdriver and other capability of functional          and acceptance test.`
+    * under tests folder their is .yml files which are use to setup browser and selenium webdriver and other capability of functional          and acceptance test.`
     
     * in tests folder replace `acceptance.suite.yml` file with github repository `acceptance.suite.yml` file.
               
       
-3) Run Testcase
+3)  Finally you have to run the test script. For that type following command in command line tool.
 
-      `run test on web browser you must need a selenium driver manager`
-     
-     
-      cmd :   
-         `webdriver-manager start`
-     
-     
+      * run test on web browser you must need a selenium driver manager 
+       
+      `webdriver-manager start`
+    
       ![Untitled](https://user-images.githubusercontent.com/4941557/62895270-2700eb00-bd6c-11e9-844b-4403b92649b5.png)
      
 
-     `php codecept.phar run acceptance'
+       `php codecept.phar run acceptance`
      
-       
-   
+          
       ![Untitled](https://user-images.githubusercontent.com/4941557/61984565-906dc380-b022-11e9-8fd6-d18442f64a99.png)
+
+
+You can see the output on your command line. If you have done it correctly it should pass all the tests and assertions
+successfully!!!
 
 
 
