@@ -60,7 +60,7 @@ Then navigate inside to ‘C:\xampp\php\codecept.phar’ folder.
       
 3)  Finally you have to run the test script. For that type following command in command line tool.
 
-      * run test on web browser you must need a selenium driver manager 
+      * run testcase on web browser you must need a selenium driver manager 
        
       `webdriver-manager start`
     
